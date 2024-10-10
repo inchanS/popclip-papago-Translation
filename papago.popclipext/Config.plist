@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Papago Web Translator</string>
+
+    <key>description</key>
+    <string>Translates selected text using Papago Website.</string>
+
+    <key>actions</key>
+    <array>
+        <dict>
+            <key>title</key>
+            <string>Translate with Papago Website</string>
+
+            <key>icon</key>
+            <string>papago-icon.png</string> 
+
+            <key>url</key>
+            <string>https://papago.naver.com/?sk=auto&amp;tk=ko&amp;st={popclip text}</string>
+
+            <key>browser</key>
+            <string>default</string>
+        </dict>
+    </array>
+
+    <key>requirements</key>
+    <array>
+        <string>text</string>
+    </array>
+</dict>
+</plist>
